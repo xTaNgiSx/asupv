@@ -13,5 +13,12 @@
     </head>
     <body>
         <h1>HTML</h1>
+        <table border = "1">
+            <thead><tr><th>Название справки</th><th>Экспорт в Word</th></tr></thead>
+            <tbody><tr><td><a href="FinalElectronicStatementOfCars.jsp">Итоговая электронная ведомость вагонов</a></td>
+                    <td><a href="FinalElectronicStatementOfCarsToWord">Итоговая электронная ведомость вагонов</a></td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>
