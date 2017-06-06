@@ -8,6 +8,14 @@
         <servlet-name>FinalElectronicStatementOfCarsToWord</servlet-name>
         <url-pattern>/v1/FinalElectronicStatementOfCarsToWord</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>FinalElectronicStatementOfCarsEdit</servlet-name>
+        <servlet-class>com.vniizht.asupv.FinalElectronicStatementOfCarsEdit</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FinalElectronicStatementOfCarsEdit</servlet-name>
+        <url-pattern>/v1/FinalElectronicStatementOfCarsEdit</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
