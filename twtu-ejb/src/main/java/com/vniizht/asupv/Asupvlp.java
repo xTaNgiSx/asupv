@@ -5,9 +5,6 @@
 package com.vniizht.asupv;
 
 import javax.ejb.Stateless;
-import javax.ejb.LocalBean;
-import javax.ejb.Remove;
-import javax.ejb.Stateful;
 
 /**
  *
