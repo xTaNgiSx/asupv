@@ -16,9 +16,9 @@
         <h1>HTML</h1>
         <table border = "1">
             <thead><tr><th>Название справки</th><th>Экспорт в Word</th><th>Редактирование</th></tr></thead>
-            <tbody><tr><td><a href="FinalElectronicStatementOfCars.jsp">Итоговая электронная ведомость вагонов</a></td>
-                    <td><a href="FinalElectronicStatementOfCarsToWord">Итоговая электронная ведомость вагонов Экспорт </a></td>
-                    <td><a href="FinalElectronicStatementOfCarsEdit.jsp">Итоговая электронная ведомость вагонов редактирование</a></td>
+            <tbody><tr><td><a href="TranslationOfTrainWagonsIntoOperationalReserve.jsp">Перевод вагонов поезда в оперативный резерв</a></td>
+                    <td><a href="TranslationOfTrainWagonsIntoOperationalReserveToWord">Перевод вагонов поезда в оперативный резерв Экспорт </a></td>
+                    <td><a href="TranslationOfTrainWagonsIntoOperationalReserveEdit.jsp">Перевод вагонов поезда в оперативный резервредактирование</a></td>
                 </tr>
             </tbody>
         </table>
