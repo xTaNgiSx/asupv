@@ -12,20 +12,24 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <form><h1>Перевод вагонов поезда №<input type="text" size="30" id="id1" name="id1">состава<input type="text" size="30" id="id2" name="id2">
-            в использование  «в оперативном резерве»</h1>
+        <h1>Перевод вагонов поезда №<input type="text" size="15" id="id1" name="id1">состава
+                <input type="text" size="10" id="id2" name="id2"></h1>
+                <h2>в использование  «в оперативном резерве»</h2>
         <table border = "1">
             
             <tbody>
                 <tr>
                     <td>Дата и время переводов</td>
-                    <td><table><input type="datetime" size="30" id="id1" name="id1">
-            <input type="submit" name="Зафиксировать"></table></td>
+                    <td><form action=""><table><input type="datetime" size="30" id="id1" name="id1">
+            <input type="submit" name="submit" value="Зафиксировать"></table></form>
+</td>
                 </tr>
                 <tr>
                     <td>Местонахождение вагонов</td>
-                    <td><table><input type="text" size="30" id="id1" name="id1">
-            <input type="submit" name="Зафиксировать"></table>Станция</td>
+                    <td><table><tr><td><input type="text" size="30" id="id1" name="id1"></td></tr>
+                            <tr><td><input type="submit" name="submit" value="Зафиксировать"></td></tr>
+                            <tr><td aling = "center">Станция</td></tr>
+                            </table></td>
                 </tr>
             </tbody>
         </table>
@@ -136,7 +140,6 @@
                 
             </tbody>
         </table>
-        </form>
     </body>
     <script src="../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 </html>

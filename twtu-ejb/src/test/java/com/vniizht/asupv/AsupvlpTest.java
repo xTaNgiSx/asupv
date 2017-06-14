@@ -45,7 +45,7 @@ public class AsupvlpTest {
     public void testBusinessMethod() throws Exception {
         System.out.println("businessMethod");
         EJBContainer container = javax.ejb.embeddable.EJBContainer.createEJBContainer();
-        AsupvlpInterface instance = (AsupvlpInterface)container.getContext().lookup("java:global/classes/Asupvlp");
+        AsupvlpInterface instance = (AsupvlpInterface)container.getContext().lookup("java:global/twtu-ejb/Asupvlp!com.vniizht.asupv.AsupvlpInterface");
         instance.businessMethod();
         container.close();
         // TODO review the generated test code and remove the default call to fail.
@@ -60,7 +60,7 @@ public class AsupvlpTest {
         System.out.println("setName");
         String name = "asupv";
         try (EJBContainer container = javax.ejb.embeddable.EJBContainer.createEJBContainer()) {
-            AsupvlpInterface instance = (AsupvlpInterface)container.getContext().lookup("java:global/classes/Asupvlp");
+            AsupvlpInterface instance = (AsupvlpInterface)container.getContext().lookup("java:global/twtu-ejb/Asupvlp!com.vniizht.asupv.AsupvlpInterface");
             instance.setName(name);
             String name1 = instance.getName();
             assertEquals("Установленое имя не равно полученому", name, name1);
@@ -76,7 +76,7 @@ public class AsupvlpTest {
     public void testGetName() throws Exception {
         System.out.println("getName");
         EJBContainer container = javax.ejb.embeddable.EJBContainer.createEJBContainer();
-        AsupvlpInterface instance = (AsupvlpInterface)container.getContext().lookup("java:global/classes/Asupvlp");
+        AsupvlpInterface instance = (AsupvlpInterface)container.getContext().lookup("java:global/twtu-ejb/Asupvlp!com.vniizht.asupv.AsupvlpInterface");
         String expResult = "";
         String result = instance.getName();
         assertEquals(expResult, result);
@@ -92,7 +92,7 @@ public class AsupvlpTest {
     public void testGetLastError() throws Exception {
         System.out.println("getLastError");
         EJBContainer container = javax.ejb.embeddable.EJBContainer.createEJBContainer();
-        AsupvlpInterface instance = (AsupvlpInterface)container.getContext().lookup("java:global/classes/Asupvlp");
+        AsupvlpInterface instance = (AsupvlpInterface)container.getContext().lookup("java:global/twtu-ejb/Asupvlp!com.vniizht.asupv.AsupvlpInterface");
         String expResult = "";
         String result = instance.getLastError();
         assertEquals(expResult, result);
