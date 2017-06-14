@@ -16,6 +16,10 @@ public class Asupvlp implements AsupvlpInterface{
     private String name;
    private String lastError = "No";
 
+    /**
+     *
+     */
+    @Override
     public void businessMethod() {
     }
 
