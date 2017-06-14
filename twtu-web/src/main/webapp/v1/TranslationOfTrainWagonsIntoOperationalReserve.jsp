@@ -18,14 +18,14 @@
             
             <tbody>
                 <tr>
-                    <td>Дата и время перевода</td>
+                    <td>Дата и время переводов</td>
                     <td><table><input type="datetime" size="30" id="id1" name="id1">
             <input type="submit" name="Зафиксировать"></table></td>
                 </tr>
                 <tr>
                     <td>Местонахождение вагонов</td>
                     <td><table><input type="text" size="30" id="id1" name="id1">
-            <input type="submit" name="Зафиксировать"></table>станция</td>
+            <input type="submit" name="Зафиксировать"></table>Станция</td>
                 </tr>
             </tbody>
         </table>
