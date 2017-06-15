@@ -4,10 +4,9 @@
  */
 package com.vniizht.asupv;
 
+import java.util.HashMap;
+import java.util.Map;
 import javax.ejb.Stateless;
-import javax.ejb.LocalBean;
-import javax.ejb.Remove;
-import javax.ejb.Stateful;
 
 /**
  *
@@ -18,7 +17,9 @@ public class Asupvlp implements AsupvlpInterface{
 
     private String name;
    private String lastError = "No";
+    private HashMap<Integer, PassengerWagon> passangerWagon;
 
+    @Override
     public void businessMethod() {
     }
 
@@ -57,6 +58,12 @@ public class Asupvlp implements AsupvlpInterface{
     public void setLastError(String lastError) {
         
         this.lastError = lastError;
+    }
+
+    @Override
+    public Map<Integer, PassengerWagon> getPassengerWagons() {
+        this.passangerWagon = new HashMap<Integer, PassengerWagon>();
+        return passangerWagon;
     }
 
 }
