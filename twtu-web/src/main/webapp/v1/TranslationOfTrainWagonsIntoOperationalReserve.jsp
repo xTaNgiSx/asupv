@@ -8,41 +8,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style type="text/css">
-            
-            #col1{
-                
-                text-align: center;
-            }
-            #h1 {
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-size: 14pt;
-                font-weight: bold;
-            }
-            #table1{
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                 width: 70%;
-                margin: auto;
-                font-weight: bold;
-                #table2{
-                    
-                    font-family: Georgia, 'Times New Roman', Times, serif;
-                    font-size: 14pt;
-                }
-            }
-            #vagonh2{
-                font-weight: bold;
-                text-align: center;
-                font-size: 16pt;
-            }
-            #maintitle{
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-weight: bold;
-                text-align: center;
-                font-size: 16pt;
-            }
-        
-        </style>
+      <link href="../css/cssTranslationOfTrainWagon.css" rel="stylesheet" type="text/css"/>
         <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
@@ -175,6 +141,7 @@
                 
             </tbody>
         </table>
+        
          <script src="../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
     </body>
    
