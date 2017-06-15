@@ -5,6 +5,7 @@
  */
 package com.vniizht.asupv;
 
+import java.util.Map;
 import javax.ejb.Local;
 
 /**
@@ -14,18 +15,20 @@ import javax.ejb.Local;
 @Local
 public interface  AsupvlpInterface {
 
-    void setName(String name);
+    public void setName(String name);
 
     /**
      * @return the name
      */
-    String getName();
+    public String getName();
 
-    void businessMethod();
+    public void businessMethod();
 
     /**
      * @return the lastError
      */
-    String getLastError();
+    public String getLastError();
+    
+   public Map<Integer,PassengerWagon> getPassengerWagons();
     
 }
