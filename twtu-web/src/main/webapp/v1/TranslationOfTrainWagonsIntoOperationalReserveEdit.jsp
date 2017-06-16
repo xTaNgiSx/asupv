@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-        <form action="FinalElectronicStatementOfCarsEdit">
+        <form action="TranslationOfTrainWagonsIntoOperationalReserveEdit">
             <input type="text" size="30" id="id1" name="id1">
             <input type="submit" name="Отправить">
         </form>
