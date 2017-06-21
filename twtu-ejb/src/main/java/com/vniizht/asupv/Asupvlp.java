@@ -15,9 +15,9 @@ import javax.ejb.Stateless;
 @Stateless
 public class Asupvlp implements AsupvlpInterface{
 
-    private String name;
+   private String name;
    private String lastError = "No";
-    private HashMap<Integer, PassengerWagon> passangerWagon;
+//    private HashMap<Integer, PassengerWagon> passangerWagon;
 
     /**
      *
@@ -63,13 +63,13 @@ public class Asupvlp implements AsupvlpInterface{
         this.lastError = lastError;
     }
 
-    @Override
-    public Map<Integer, PassengerWagon> getPassengerWagons() {
-        this.passangerWagon = new HashMap<Integer, PassengerWagon>();
-        passangerWagon.put(1, new PassengerWagon(1,"Первый вагон"));
-         passangerWagon.put(2, new PassengerWagon(2,"Второй вагон"));
-         passangerWagon.put(3, new PassengerWagon(3,"Третий вагон"));
-        return passangerWagon;
-    }
+//    @Override
+//    public Map<Integer, PassengerWagon> getPassengerWagons() {
+//        this.passangerWagon = new HashMap<Integer, PassengerWagon>();
+//        passangerWagon.put(1, new PassengerWagon(1,"Первый вагон"));
+//         passangerWagon.put(2, new PassengerWagon(2,"Второй вагон"));
+//         passangerWagon.put(3, new PassengerWagon(3,"Третий вагон"));
+//        return passangerWagon;
+//    }
 
 }

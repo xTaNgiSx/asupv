@@ -100,22 +100,22 @@ public class AsupvlpTest {
         // TODO review the generated test code and remove the default call to fail.
 //        fail("The test case is a prototype.");
     }
-    @Test
-    public void testGetPassangerWagonMap() throws NamingException{
-    System.out.println("getLastError");
-        EJBContainer container = javax.ejb.embeddable.EJBContainer.createEJBContainer();
-        AsupvlpInterface instance = (AsupvlpInterface)container.getContext().lookup("java:global/twtu-ejb/Asupvlp!com.vniizht.asupv.AsupvlpInterface");
-        Map<Integer, PassengerWagon> result = instance.getPassengerWagons();
-        assertNotNull(result);
-        container.close();
-    }
-    @Test
-    public void testPassangerWagonMapHasThreeWagons() throws NamingException{
-    System.out.println("getLastError");
-        EJBContainer container = javax.ejb.embeddable.EJBContainer.createEJBContainer();
-        AsupvlpInterface instance = (AsupvlpInterface)container.getContext().lookup("java:global/twtu-ejb/Asupvlp!com.vniizht.asupv.AsupvlpInterface");
-        Map<Integer, PassengerWagon> result = instance.getPassengerWagons();
-        assertEquals(3,result.size());
-        container.close();
-    }
+//    @Test
+//    public void testGetPassangerWagonMap() throws NamingException{
+//    System.out.println("getLastError");
+//        EJBContainer container = javax.ejb.embeddable.EJBContainer.createEJBContainer();
+//        AsupvlpInterface instance = (AsupvlpInterface)container.getContext().lookup("java:global/twtu-ejb/Asupvlp!com.vniizht.asupv.AsupvlpInterface");
+//        Map<Integer, PassengerWagon> result = instance.getPassengerWagons();
+//        assertNotNull(result);
+//        container.close();
+//    }
+//    @Test
+//    public void testPassangerWagonMapHasThreeWagons() throws NamingException{
+//    System.out.println("getLastError");
+//        EJBContainer container = javax.ejb.embeddable.EJBContainer.createEJBContainer();
+//        AsupvlpInterface instance = (AsupvlpInterface)container.getContext().lookup("java:global/twtu-ejb/Asupvlp!com.vniizht.asupv.AsupvlpInterface");
+//        Map<Integer, PassengerWagon> result = instance.getPassengerWagons();
+//        assertEquals(3,result.size());
+//        container.close();
+//    }
 }

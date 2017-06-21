@@ -29,6 +29,6 @@ public interface  AsupvlpInterface {
      */
     public String getLastError();
     
-   public Map<Integer,PassengerWagon> getPassengerWagons();
+//   public Map<Integer,PassengerWagon> getPassengerWagons();
     
 }

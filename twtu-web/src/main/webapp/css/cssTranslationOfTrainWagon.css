@@ -17,6 +17,11 @@ and open the template in the editor.
                 font-size: 14pt;
                 font-weight: bold;
             }
+            #table{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                    font-weight: bold;
+                
+            }
             #table1{
                 font-family: Georgia, 'Times New Roman', Times, serif;
                  width: 70%;
