@@ -4,6 +4,10 @@
         <servlet-name>FinalElectronicStatementOfCarsToWord</servlet-name>
         <servlet-class>com.vniizht.asupv.FinalElectronicStatementOfCarsToWord</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>TranslationOfTrainWagonsIntoOperationalReserve</servlet-name>
+        <servlet-class>com.vniizht.asupv.v1.TranslationOfTrainWagonsIntoOperationalReserve</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>FinalElectronicStatementOfCarsToWord</servlet-name>
         <url-pattern>/v1/FinalElectronicStatementOfCarsToWord</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>FinalElectronicStatementOfCarsEdit</servlet-name>
         <url-pattern>/v1/FinalElectronicStatementOfCarsEdit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TranslationOfTrainWagonsIntoOperationalReserve</servlet-name>
+        <url-pattern>v1/TTWIOR</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

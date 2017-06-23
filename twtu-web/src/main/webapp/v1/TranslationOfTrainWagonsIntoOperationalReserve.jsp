@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<jsp:useBean  id="ttwior" class="com.vniizht.asupv.v1.TTWIORBean"></jsp:useBean>
 <!DOCTYPE html>
 <html>
     <head>
@@ -23,15 +24,15 @@
             <tbody>
                 <tr>
                     <td>Дата и время переводов</td>
-                    <td><form action=""><table><input type="time" size="25" id="id1" name="id1">
-                                <input type="submit" name="submit" value="Зафиксировать"></table></form>
+                    <td><form action=""><input type="time" size="25" id="id1" name="id1">
+                                <input type="submit" name="submit" value="Зафиксировать"></form>
                     </td>
                 </tr>
                 <tr>
                     <td>Местонахождение вагонов</td>
-                    <td><table><tr><td><input type="text" size="25" id="id1" name="id1"></td><td><input type="submit" name="submit" value="Зафиксировать"></td></tr>
+                    <td><form action="TTWIOR"><table><tr><td><input type="text" size="25" id="idd2" name="p" itemid="atid" value="${ttwior.name}"></td><td><input type="submit" name="submit" value="Зафиксировать"></td></tr>
                             <tr><td id = "col1">Станция</td></tr>     
-                        </table></td>
+                            </table></form></td>
                 </tr>
             </tbody>
         </table>
@@ -41,7 +42,7 @@
             <tbody> 
                 <tr>
                     <td id = "col1">01</td>
-                    <td><form><table id="table"><tr><td><input type="text" size="30" id="inputid01" name="inputid01"></td><td><input type="button" id="button01" name="submit" value="Зафиксировать" onclick="this.value = 'Редактировать',readOnly() "></td></tr></table></form></td>
+                    <td><form><table id="table"><tr><td><input type="text" size="30" id="inputid01" name="inputid01" value="${ttwior.name}"></td><td><input type="button" id="button01" name="submit" value="Зафиксировать" onclick="this.value = 'Редактировать',readOnly() "></td></tr></table></form></td>
                 </tr>
                 <tr>
                     <td id = "col1">02</td>
