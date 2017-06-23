@@ -47,6 +47,7 @@ public class TranslationOfTrainWagonsIntoOperationalReserve extends HttpServlet 
            {
                 String element = p.nextElement();
                 if (element.equals("idn2"))bean.setName(request.getParameter(element));
+                
            }
             out.println("</body>");
             out.println("</html>");

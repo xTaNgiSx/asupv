@@ -7,42 +7,47 @@ and open the template in the editor.
     Created on : 15.06.2017, 16:11:09
     Author     : nikita
 */
-  
-            #col1{
-                
-                text-align: center;
-            }
-            #h1 {
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-size: 14pt;
-                font-weight: bold;
-            }
-            #table{
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                    font-weight: bold;
-                
-            }
-            #table1{
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                 width: 70%;
-                margin: auto;
-                font-weight: bold;
-                #table2{
-                    
-                    font-family: Georgia, 'Times New Roman', Times, serif;
-                    font-size: 14pt;
-                }
-            }
-            #vagonh2{
-                font-weight: bold;
-                text-align: center;
-                font-size: 16pt;
-            }
-            #maintitle{
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-weight: bold;
-                text-align: center;
-                font-size: 16pt;
-            }
+
+#col1{
+
+    text-align: center;
+}
+#h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+#table{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+#table1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 70%;
+    margin: auto;
+    font-weight: bold;}
+    #table2{
+
+        font-family: Georgia, 'Times New Roman', Times, serif;
         
+    }
+    #table3{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        
+    }
+
+#vagonh2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 16pt;
+}
+#maintitle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16pt;
+}
+
 
